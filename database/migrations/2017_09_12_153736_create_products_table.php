@@ -3,7 +3,7 @@
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateHoangsTable extends Migration
+class CreateProductsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -12,9 +12,12 @@ class CreateHoangsTable extends Migration
      */
     public function up()
     {
-        Schema::create('hoangs', function (Blueprint $table) {
+        Schema::create('products', function (Blueprint $table) {
             $table->increments('id');
             $table->timestamps();
+            $table->text('name');
+            $table->text('description');
+            $table->foreign('id')->references('id')->on('categories');
         });
     }
 
@@ -25,6 +28,6 @@ class CreateHoangsTable extends Migration
      */
     public function down()
     {
-        Schema::drop('hoangs');
+        Schema::drop('products');
     }
 }

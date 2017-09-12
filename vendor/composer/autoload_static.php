@@ -261,11 +261,12 @@ class ComposerStaticInit9d93427c69d5a1a931f794fc63da0a39
     );
 
     public static $classMap = array (
-        'AddVotesToUsersTable' => __DIR__ . '/../..' . '/database/migrations/2017_09_10_155111_add_votes_to_users_table.php',
-        'CreateHoangsTable' => __DIR__ . '/../..' . '/database/migrations/2017_09_10_160918_create_hoangs_table.php',
+        'CategoryTableSeeder' => __DIR__ . '/../..' . '/database/seeds/CategoryTableSeeder.php',
+        'CreateCategoriesTable' => __DIR__ . '/../..' . '/database/migrations/2017_09_12_153720_create_categories_table.php',
         'CreatePasswordResetsTable' => __DIR__ . '/../..' . '/database/migrations/2014_10_12_100000_create_password_resets_table.php',
+        'CreateProductChildrenTable' => __DIR__ . '/../..' . '/database/migrations/2017_09_12_153747_create_product_children_table.php',
+        'CreateProductsTable' => __DIR__ . '/../..' . '/database/migrations/2017_09_12_153736_create_products_table.php',
         'CreateUsersTable' => __DIR__ . '/../..' . '/database/migrations/2014_10_12_000000_create_users_table.php',
-        'CreateUsersTable1' => __DIR__ . '/../..' . '/database/migrations/2017_09_10_155142_create_users_table1.php',
         'DatabaseSeeder' => __DIR__ . '/../..' . '/database/seeds/DatabaseSeeder.php',
         'File_Iterator' => __DIR__ . '/..' . '/phpunit/php-file-iterator/src/Iterator.php',
         'File_Iterator_Facade' => __DIR__ . '/..' . '/phpunit/php-file-iterator/src/Facade.php',
@@ -744,6 +745,8 @@ class ComposerStaticInit9d93427c69d5a1a931f794fc63da0a39
         'PHP_Token_XOR_EQUAL' => __DIR__ . '/..' . '/phpunit/php-token-stream/src/Token.php',
         'PHP_Token_YIELD' => __DIR__ . '/..' . '/phpunit/php-token-stream/src/Token.php',
         'PHP_Token_YIELD_FROM' => __DIR__ . '/..' . '/phpunit/php-token-stream/src/Token.php',
+        'ProducutChildTableSeeder' => __DIR__ . '/../..' . '/database/seeds/ProducutChildTableSeeder.php',
+        'ProducutTableSeeder' => __DIR__ . '/../..' . '/database/seeds/ProducutTableSeeder.php',
         'SebastianBergmann\\Comparator\\ArrayComparator' => __DIR__ . '/..' . '/sebastian/comparator/src/ArrayComparator.php',
         'SebastianBergmann\\Comparator\\Comparator' => __DIR__ . '/..' . '/sebastian/comparator/src/Comparator.php',
         'SebastianBergmann\\Comparator\\ComparisonFailure' => __DIR__ . '/..' . '/sebastian/comparator/src/ComparisonFailure.php',

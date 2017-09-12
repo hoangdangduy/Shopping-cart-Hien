@@ -3,7 +3,7 @@
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateUsersTable1 extends Migration
+class CreateProductChildrenTable extends Migration
 {
     /**
      * Run the migrations.
@@ -12,9 +12,13 @@ class CreateUsersTable1 extends Migration
      */
     public function up()
     {
-        Schema::create('users', function (Blueprint $table) {
+        Schema::create('product_children', function (Blueprint $table) {
             $table->increments('id');
             $table->timestamps();
+            $table->text('name');
+            $table->text('code');
+            $table->float('price');
+            $table->foreign('id')->references('id')->on('products');
         });
     }
 
@@ -25,6 +29,6 @@ class CreateUsersTable1 extends Migration
      */
     public function down()
     {
-        Schema::drop('users');
+        Schema::drop('product_children');
     }
 }
