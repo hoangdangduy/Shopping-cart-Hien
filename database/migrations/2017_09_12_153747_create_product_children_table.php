@@ -18,7 +18,8 @@ class CreateProductChildrenTable extends Migration
             $table->text('name');
             $table->text('code');
             $table->float('price');
-            $table->foreign('id')->references('id')->on('products');
+            $table->integer('idProduct')->unsigned();
+            $table->foreign('idProduct')->references('id')->on('products');
         });
     }
 
