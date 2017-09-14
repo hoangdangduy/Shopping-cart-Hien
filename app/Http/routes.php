@@ -14,3 +14,31 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('category/{id}', [
+    'as' => 'getShowCategoryById',
+    'uses' => 'CategoryController@getShowCategoryById'
+]);
+
+Route::get('category', [
+    'as' => 'getShowCategory',
+    'uses' => 'CategoryController@getShowCategory'
+]);
+
+Route::group(['prefix' => 'stripe'], function () {
+    Route::post('category', [
+        'as' => 'postShowCategoryById',
+        'uses' => 'CategoryController@postShowCategoryById'
+    ]);
+
+    Route::put('category', [
+        'as' => 'putUpdateCategoryById',
+        'uses' => 'CategoryController@putUpdateCategoryById'
+    ]);
+
+    Route::delete('category', [
+        'as' => 'deleteCategoryById',
+        'uses' => 'CategoryController@deleteCategoryById'
+    ]);
+});
+
