@@ -18,6 +18,7 @@ class ProducutChildTableSeeder extends Seeder
             'price' => mt_rand(50, 500),
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'idProduct' => 1,
+            'unit' => 'kg',
         ]);
 
         DB::table('product_children')->insert([
@@ -26,6 +27,7 @@ class ProducutChildTableSeeder extends Seeder
             'price' => mt_rand(50, 500),
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'idProduct' => 1,
+            'unit' => 'kg',
         ]);
 
         DB::table('product_children')->insert([
@@ -34,6 +36,7 @@ class ProducutChildTableSeeder extends Seeder
             'price' => mt_rand(50, 500),
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'idProduct' => 1,
+            'unit' => 'kg',
         ]);
 
         DB::table('product_children')->insert([
@@ -42,6 +45,7 @@ class ProducutChildTableSeeder extends Seeder
             'price' => mt_rand(50, 500),
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'idProduct' => 2,
+            'unit' => 'kg',
         ]);
 
         DB::table('product_children')->insert([
@@ -50,6 +54,7 @@ class ProducutChildTableSeeder extends Seeder
             'price' => mt_rand(50, 500),
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'idProduct' => 2,
+            'unit' => 'kg',
         ]);
 
         DB::table('product_children')->insert([
@@ -58,6 +63,7 @@ class ProducutChildTableSeeder extends Seeder
             'price' => mt_rand(50, 500),
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'idProduct' => 2,
+            'unit' => 'kg',
         ]);
 
         DB::table('product_children')->insert([
@@ -66,6 +72,7 @@ class ProducutChildTableSeeder extends Seeder
             'price' => mt_rand(50, 500),
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'idProduct' => 2,
+            'unit' => 'kg',
         ]);
 
         DB::table('product_children')->insert([
@@ -74,6 +81,7 @@ class ProducutChildTableSeeder extends Seeder
             'price' => mt_rand(50, 500),
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'idProduct' => 2,
+            'unit' => 'kg',
         ]);
 
         DB::table('product_children')->insert([
@@ -82,6 +90,7 @@ class ProducutChildTableSeeder extends Seeder
             'price' => mt_rand(50, 500),
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'idProduct' => 3,
+            'unit' => 'kg',
         ]);
 
         DB::table('product_children')->insert([
@@ -90,6 +99,7 @@ class ProducutChildTableSeeder extends Seeder
             'price' => mt_rand(50, 500),
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'idProduct' => 3,
+            'unit' => 'kg',
         ]);
 
         DB::table('product_children')->insert([
@@ -98,6 +108,7 @@ class ProducutChildTableSeeder extends Seeder
             'price' => mt_rand(50, 500),
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'idProduct' => 4,
+            'unit' => 'kg',
         ]);
 
         DB::table('product_children')->insert([
@@ -106,6 +117,7 @@ class ProducutChildTableSeeder extends Seeder
             'price' => mt_rand(50, 500),
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'idProduct' => 4,
+            'unit' => 'kg',
         ]);
 
         DB::table('product_children')->insert([
@@ -114,6 +126,7 @@ class ProducutChildTableSeeder extends Seeder
             'price' => mt_rand(50, 500),
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'idProduct' => 4,
+            'unit' => 'kg',
         ]);
 
         DB::table('product_children')->insert([
@@ -122,6 +135,7 @@ class ProducutChildTableSeeder extends Seeder
             'price' => mt_rand(50, 500),
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'idProduct' => 7,
+            'unit' => 'kg',
         ]);
 
         DB::table('product_children')->insert([
@@ -130,6 +144,7 @@ class ProducutChildTableSeeder extends Seeder
             'price' => mt_rand(50, 500),
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'idProduct' => 7,
+            'unit' => 'kg',
         ]);
     }
 }

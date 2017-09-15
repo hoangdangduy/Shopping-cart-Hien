@@ -17,6 +17,10 @@ class ProducutTableSeeder extends Seeder
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'description' => 'description Que hàn J421',
             'idCategory' => 1,
+            'origin' => 'Việt Nam',
+            'trademark' => 'Atlantic',
+            'status' => 'Còn hàng',
+            'rating' => 8,
         ]);
 
         DB::table('products')->insert([
@@ -24,6 +28,10 @@ class ProducutTableSeeder extends Seeder
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'description' => 'description Que hàn J421-VĐ',
             'idCategory' => 1,
+            'origin' => 'Việt Nam',
+            'trademark' => 'Atlantic',
+            'status' => 'Còn hàng',
+            'rating' => 8,
         ]);
 
         DB::table('products')->insert([
@@ -31,6 +39,10 @@ class ProducutTableSeeder extends Seeder
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'description' => 'description Que hàn E7018-VĐ',
             'idCategory' => 2,
+            'origin' => 'Việt Nam',
+            'trademark' => 'Atlantic',
+            'status' => 'Còn hàng',
+            'rating' => 8,
         ]);
 
         DB::table('products')->insert([
@@ -38,6 +50,10 @@ class ProducutTableSeeder extends Seeder
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'description' => 'description Que hàn N46-VĐ',
             'idCategory' => 2,
+            'origin' => 'Việt Nam',
+            'trademark' => 'Atlantic',
+            'status' => 'Còn hàng',
+            'rating' => 8,
         ]);
 
         DB::table('products')->insert([
@@ -45,6 +61,10 @@ class ProducutTableSeeder extends Seeder
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'description' => 'description ' . 'Que hàn Inox VĐ-308',
             'idCategory' => 3,
+            'origin' => 'Việt Nam',
+            'trademark' => 'Atlantic',
+            'status' => 'Còn hàng',
+            'rating' => 8,
         ]);
 
         DB::table('products')->insert([
@@ -52,6 +72,10 @@ class ProducutTableSeeder extends Seeder
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'description' => 'description ' . 'Que hàn Inox Kiswel',
             'idCategory' => 3,
+            'origin' => 'Việt Nam',
+            'trademark' => 'Atlantic',
+            'status' => 'Còn hàng',
+            'rating' => 8,
         ]);
 
         DB::table('products')->insert([
@@ -59,6 +83,10 @@ class ProducutTableSeeder extends Seeder
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'description' => 'description ' . 'Que hàn cắt',
             'idCategory' => 3,
+            'origin' => 'Việt Nam',
+            'trademark' => 'Atlantic',
+            'status' => 'Còn hàng',
+            'rating' => 8,
         ]);
 
         DB::table('products')->insert([
@@ -66,6 +94,10 @@ class ProducutTableSeeder extends Seeder
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'description' => 'description ' . 'Que hàn cắt',
             'idCategory' => 3,
+            'origin' => 'Việt Nam',
+            'trademark' => 'Atlantic',
+            'status' => 'Còn hàng',
+            'rating' => 8,
         ]);
 
         DB::table('products')->insert([
@@ -73,6 +105,10 @@ class ProducutTableSeeder extends Seeder
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'description' => 'description ' . 'Que hàn đắp',
             'idCategory' => 3,
+            'origin' => 'Việt Nam',
+            'trademark' => 'Atlantic',
+            'status' => 'Còn hàng',
+            'rating' => 8,
         ]);
 
         DB::table('products')->insert([
@@ -80,6 +116,10 @@ class ProducutTableSeeder extends Seeder
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'description' => 'description ' . 'Que hàn Inox Gemini',
             'idCategory' => 3,
+            'origin' => 'Việt Nam',
+            'trademark' => 'Atlantic',
+            'status' => 'Còn hàng',
+            'rating' => 8,
         ]);
 
         DB::table('products')->insert([
@@ -87,6 +127,10 @@ class ProducutTableSeeder extends Seeder
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'description' => 'description ' . 'Dây hàn EM12',
             'idCategory' => 4,
+            'origin' => 'Việt Nam',
+            'trademark' => 'Atlantic',
+            'status' => 'Còn hàng',
+            'rating' => 8,
         ]);
 
         DB::table('products')->insert([
@@ -94,6 +138,10 @@ class ProducutTableSeeder extends Seeder
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'description' => 'description ' . 'Thuốc hàn Camel',
             'idCategory' => 4,
+            'origin' => 'Việt Nam',
+            'trademark' => 'Atlantic',
+            'status' => 'Còn hàng',
+            'rating' => 8,
         ]);
 
         DB::table('products')->insert([
@@ -101,6 +149,10 @@ class ProducutTableSeeder extends Seeder
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'description' => 'description ' . 'Dây hàn GM-70S',
             'idCategory' => 4,
+            'origin' => 'Việt Nam',
+            'trademark' => 'Atlantic',
+            'status' => 'Còn hàng',
+            'rating' => 8,
         ]);
     }
 }

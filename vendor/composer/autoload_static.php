@@ -94,8 +94,8 @@ class ComposerStaticInit9d93427c69d5a1a931f794fc63da0a39
     public static $prefixDirsPsr4 = array (
         'phpDocumentor\\Reflection\\' => 
         array (
-            0 => __DIR__ . '/..' . '/phpdocumentor/reflection-common/src',
-            1 => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src',
+            0 => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src',
+            1 => __DIR__ . '/..' . '/phpdocumentor/reflection-common/src',
             2 => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src',
         ),
         'XdgBaseDir\\' => 
@@ -263,6 +263,8 @@ class ComposerStaticInit9d93427c69d5a1a931f794fc63da0a39
     public static $classMap = array (
         'CategoryTableSeeder' => __DIR__ . '/../..' . '/database/seeds/CategoryTableSeeder.php',
         'CreateCategoriesTable' => __DIR__ . '/../..' . '/database/migrations/2017_09_12_153720_create_categories_table.php',
+        'CreateCategoryNewsTable' => __DIR__ . '/../..' . '/database/migrations/2017_09_15_090635_create_category_news_table.php',
+        'CreateNewsTable' => __DIR__ . '/../..' . '/database/migrations/2017_09_15_091054_create_news_table.php',
         'CreatePasswordResetsTable' => __DIR__ . '/../..' . '/database/migrations/2014_10_12_100000_create_password_resets_table.php',
         'CreateProductChildrenTable' => __DIR__ . '/../..' . '/database/migrations/2017_09_12_153747_create_product_children_table.php',
         'CreateProductsTable' => __DIR__ . '/../..' . '/database/migrations/2017_09_12_153736_create_products_table.php',

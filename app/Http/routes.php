@@ -40,5 +40,16 @@ Route::group(['prefix' => 'stripe'], function () {
         'as' => 'deleteCategoryById',
         'uses' => 'CategoryController@deleteCategoryById'
     ]);
+
+    Route::get('product-trademark/{trademark}', [
+        'as' => 'getSearchProductyByTrademark',
+        'uses' => 'ProductController@getSearchProductyByTrademark'
+    ]);
+
+    Route::get('product-origin/{origin}', [
+        'as' => 'getSearchProductyByOrigin',
+        'uses' => 'ProductController@getSearchProductyByOrigin'
+    ]);
 });
+
 
