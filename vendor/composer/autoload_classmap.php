@@ -8,8 +8,8 @@ $baseDir = dirname($vendorDir);
 return array(
     'CategoryTableSeeder' => $baseDir . '/database/seeds/CategoryTableSeeder.php',
     'CreateCategoriesTable' => $baseDir . '/database/migrations/2017_09_12_153720_create_categories_table.php',
-    'CreateCategoryNewsTable' => $baseDir . '/database/migrations/2017_09_15_090635_create_category_news_table.php',
-    'CreateNewsTable' => $baseDir . '/database/migrations/2017_09_15_091054_create_news_table.php',
+    'CreateCategoryNewsTable' => $baseDir . '/database/migrations/2017_09_16_153508_create_category_news_table.php',
+    'CreateNewsTable' => $baseDir . '/database/migrations/2017_09_16_153101_create_news_table.php',
     'CreatePasswordResetsTable' => $baseDir . '/database/migrations/2014_10_12_100000_create_password_resets_table.php',
     'CreateProductChildrenTable' => $baseDir . '/database/migrations/2017_09_12_153747_create_product_children_table.php',
     'CreateProductsTable' => $baseDir . '/database/migrations/2017_09_12_153736_create_products_table.php',

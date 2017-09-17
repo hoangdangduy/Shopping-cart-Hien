@@ -11,9 +11,49 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+/*
+ * Route view start
+ */
+Route::get('/', [
+    'as' => 'routeViewHome',
+    'uses' => 'View\ViewController@viewHome'
+]);
+
+Route::get('/san-pham', [
+    'as' => 'routeViewProduct',
+    'uses' => 'View\ViewController@viewProduct'
+]);
+
+Route::get('/dich-vu', [
+    'as' => 'routeViewService',
+    'uses' => 'View\ViewController@viewService'
+]);
+
+Route::get('/tin-tuc', [
+    'as' => 'routeViewNews',
+    'uses' => 'View\ViewController@viewNews'
+]);
+
+Route::get('/lien-he', [
+    'as' => 'routeViewContact',
+    'uses' => 'View\ViewController@viewContact'
+]);
+
+Route::get('/dang-nhap', [
+    'as' => 'routeViewLogin',
+    'uses' => 'View\ViewController@viewLogin'
+]);
+
+Route::get('/dang-ky', [
+    'as' => 'routeViewRegister',
+    'uses' => 'View\ViewController@viewRegister'
+]);
+/*
+ * Route view end
+ */
+
+
+
 
 Route::get('category/{id}', [
     'as' => 'getShowCategoryById',
@@ -25,6 +65,9 @@ Route::get('category', [
     'uses' => 'CategoryController@getShowCategory'
 ]);
 
+/*
+ * Restful api demo
+ */
 Route::group(['prefix' => 'stripe'], function () {
     Route::post('category', [
         'as' => 'postShowCategoryById',

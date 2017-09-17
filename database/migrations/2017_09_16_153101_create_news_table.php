@@ -18,7 +18,7 @@ class CreateNewsTable extends Migration
             $table->text('name');
             $table->text('imageAvatar');
             $table->text('description');
-            $table->foreign('idCategoryNews')->references('id')->on('category_news')->onDelete('cascade');
+//            $table->foreign('idCategoryNews')->references('id')->on('category_news')->onDelete('cascade');
         });
     }
 
